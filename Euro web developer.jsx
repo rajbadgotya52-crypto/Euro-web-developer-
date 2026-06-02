@@ -536,7 +536,7 @@ export default function App() {
   e.preventDefault();
 
   try {
-    const res = await fetch("/api/contact", {
+    const res = await fetch('https://euro-web-developer.onrender.com/api/contact',{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
